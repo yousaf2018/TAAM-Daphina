@@ -1,8 +1,8 @@
-# Daphnia-TAAM: Track Any Aquatic Model For Daphina Locomotion Analysis
+# TAAM-Daphina: Track Any Aquatic Model For Daphina Locomotion Analysis
 
-**Daphnia-TAAM** is a high-performance, professional-grade desktop application designed specifically for the automated tracking and behavioral analysis of *Daphnia* and other small aquatic organisms in **top-view** and **lateral-view** locomotion studies.
+**TAAM-Daphina** is a high-performance, professional-grade desktop application designed specifically for the automated tracking and behavioral analysis of *Daphnia* and other small aquatic organisms in **top-view** and **lateral-view** locomotion studies.
 
-Daphnia-TAAM bridges the gap between large AI foundation models and real-time edge AI, combining:
+TAAM-Daphina bridges the gap between large AI foundation models and real-time edge AI, combining:
 
 🧠 **SAM 3 (Teacher Model)** — few-shot learning & automatic dataset generation  
 ⚡ **YOLO (Student Model)** — ultra-fast inference (100+ FPS) for real-time small animal tracking
@@ -13,11 +13,11 @@ Daphnia-TAAM bridges the gap between large AI foundation models and real-time ed
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 <p align="center">
-  <!-- Note: Replace with your actual Daphnia-TAAM Logo if available -->
-  <img src="https://github.com/yousaf2018/TAAM-Track-Any-Aquatic-Model/blob/main/source_code/assets/Logo.png" alt="Daphnia-TAAM Logo" width="200">
+  <!-- Note: Replace with your actual TAAM-Daphina Logo if available -->
+  <img src="https://github.com/yousaf2018/TAAM-Track-Any-Aquatic-Model/blob/main/source_code/assets/Logo.png" alt="TAAM-Daphina Logo" width="200">
 </p>
 
-<!-- Note: Replace with your actual Daphnia-TAAM GUI Snapshot if available -->
+<!-- Note: Replace with your actual TAAM-Daphina GUI Snapshot if available -->
 
 ---
 
@@ -44,13 +44,13 @@ This application was developed in the **[Laboratory of Professor Chung-Der Hsiao
 
 ---
 
-# 🚀 Daphnia-TAAM Workflow
+# 🚀 TAAM-Daphina Workflow
 
 ## 1️⃣ PRE-PROCESSING
 Split large, high-framerate lab videos into manageable segments for stable GPU processing, preventing memory overloads common with macro-lens recordings.
 
 ## 2️⃣ ANNOTATION
-Draw bounding boxes around a few *Daphnia* or target organisms on a few frames. Daphnia-TAAM records them as few-shot prompts.
+Draw bounding boxes around a few *Daphnia* or target organisms on a few frames. TAAM-Daphina records them as few-shot prompts.
 
 ## 3️⃣ AI TRAINING PIPELINE
 
@@ -76,7 +76,7 @@ Use trained models for high-speed tracking on new multi-well or behavioral tank 
 
 # 📖 Detailed Modules & Usage Guide
 
-Daphnia-TAAM is structured into five core modules accessible via the left sidebar and main tab widget. This design allows researchers to seamlessly transition from raw video handling to advanced behavioral statistical analysis for small organisms.
+TAAM-Daphina is structured into five core modules accessible via the left sidebar and main tab widget. This design allows researchers to seamlessly transition from raw video handling to advanced behavioral statistical analysis for small organisms.
 
 ### 📁 The Workspace Directory Concept
 Before running any analysis, the user must select a workspace folder using the sidebar. This folder acts as the central database of the application. All temporary files, exported datasets, trained model weights, and the default settings file are organized here. 
@@ -176,7 +176,7 @@ Datasets/
 
 # 🖥️ Hardware Prerequisite: NVIDIA GPU & CUDA Setup
 
-To run the SAM 3 and YOLO pipelines with GPU acceleration, you must have an NVIDIA GPU and verify your graphics drivers before installing Daphnia-TAAM.
+To run the SAM 3 and YOLO pipelines with GPU acceleration, you must have an NVIDIA GPU and verify your graphics drivers before installing TAAM-Daphina.
 
 ### Step 1: Install Latest NVIDIA Drivers
 1. Go to the [Official NVIDIA Driver Downloads Page](https://www.nvidia.com/Download/index.aspx).
