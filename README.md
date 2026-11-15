@@ -1,12 +1,12 @@
 # TAAM-Daphina: Track Any Aquatic Model For Daphina Locomotion Analysis
-
-**TAAM-Daphina** is a high-performance, professional-grade desktop application designed specifically for the automated tracking and behavioral analysis of *Daphnia* and other small aquatic organisms in **top-view** and **lateral-view** locomotion studies.
-
-TAAM-Daphina bridges the gap between large AI foundation models and real-time edge AI, combining:
 <p align="center">
   <!-- Note: Replace with your actual TAAM-Daphina Logo if available -->
   <img src="https://github.com/yousaf2018/TAAM-Daphina/blob/main/source_code/assets/Logo.png" alt="TAAM-Daphina Logo" width="200">
 </p>
+**TAAM-Daphina** is a high-performance, professional-grade desktop application designed specifically for the automated tracking and behavioral analysis of *Daphnia* and other small aquatic organisms in **top-view** and **lateral-view** locomotion studies.
+
+TAAM-Daphina bridges the gap between large AI foundation models and real-time edge AI, combining:
+
 🧠 **SAM 3 (Teacher Model)** — few-shot learning & automatic dataset generation  
 ⚡ **YOLO (Student Model)** — ultra-fast inference (100+ FPS) for real-time small animal tracking
 
