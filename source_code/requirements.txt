@@ -1,0 +1,17 @@
+numpy
+pandas
+opencv-python
+matplotlib
+PyQt6
+ultralytics
+scikit-learn
+tqdm
+pyyaml
+# Torch is required. 
+# Note: For specific CUDA (GPU) versions, it is often better 
+# to install torch manually, but this will install the default.
+torch
+torchvision
+einops  
+decord
+openpyxl
