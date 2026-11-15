@@ -14,7 +14,7 @@ TAAM-Daphina bridges the gap between large AI foundation models and real-time ed
 
 <p align="center">
   <!-- Note: Replace with your actual TAAM-Daphina Logo if available -->
-  <img src="https://github.com/yousaf2018/TAAM-Track-Any-Aquatic-Model/blob/main/source_code/assets/Logo.png" alt="TAAM-Daphina Logo" width="200">
+  <img src="https://github.com/yousaf2018/TAAM-Daphina/blob/main/source_code/assets/Logo.png" alt="TAAM-Daphina Logo" width="200">
 </p>
 
 <!-- Note: Replace with your actual TAAM-Daphina GUI Snapshot if available -->
